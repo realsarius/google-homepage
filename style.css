@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+nav{
+  background-color: #ddd;
+  position: relative;
+}
+.right-nav{
+  position: absolute;
+  right: 0px;
+  top: 0;
+  padding: 20px;
+}
+.left-nav {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  padding: 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+.right-nav button{
+  padding: 7px 15px 7px 15px;
+  background-color: #4386F9;
+  color: white;
+  font-weight: bolder;
+}
+.left-nav ul li{
+  display: inline-block;
+  margin: 0 10px 0 10px;
+  padding-top: 10px;
+}
+.right-nav ul li{
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+ul{
+  list-style: none;
+}
+main{
+  display: relative;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  margin: -320px 0 0 -170px;
+}
+main input{
+  position: absolute;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 150%;
+  right: -190px;
+}
+#search-icon{
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  bottom: 63px;
+  left: -10px;
+  float: left;
+}
+.buttons{
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  left: 110px;
+  top: 320px;
+  display: inline-flex;
+}
+.buttons button{
+  height: 30px;
+  width: 120px;
+  margin: 0px 10px 0px 10px;
+}
+.container p{
+  position: absolute;
+  top: 390px;
+  left: 140px;
+  width: 300px;
+}
+footer{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 90px;
+  background-color: #F2F2F2;
+  padding-bottom: 5px;
+}
+footer a{
+  text-decoration: none;
+  color: black;
+}
+footer p{
+  margin: 15px;
+}
+.footer {
+  border-bottom: #ccc 1px solid;
+  height: 35px;
+  width: 100%;
+}
